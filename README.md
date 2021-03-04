@@ -1,7 +1,11 @@
 #Change Converter
+
+A short challenge to practice TDD process
+
+##Task
 Given a number in pounds and pence, work out the most efficient way of breaking it down into notes and coins, e.g. 11.55 becomes ["£10", "£1", "50p", "5p"]
 
-#Acceptance Criteria
+##Acceptance Criteria
 change_generator.convert(7.42)
  => ["£5", "£1", "£1", "20p", "20p", "2p"]
 change_generator.convert(40)
@@ -13,6 +17,11 @@ change_generator.convert(19.99)
 change_generator.convert(76.81)
  => ["£50", "£20", "£5", "£1", "50p", "20p", "10p", "1p"]
 
+---------
+##My Assumptions
+Input will always be an integer greater than 0 with either 0 or 2 decimal places. If 0 dps, it represents a whole number of pounds.
+
+##My Input/Output Table
 INPUT | OUTPUT
 -|-
 1| ["£1"]
